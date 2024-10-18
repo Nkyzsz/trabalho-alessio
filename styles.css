@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #df4545;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff; /* Adicionando cor ao título */
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 55px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold; /* Deixando os rótulos em negrito */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #da0e0e;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff; /* Adicionando cor ao texto do botão */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor diferente ao passar o mouse */
+}
